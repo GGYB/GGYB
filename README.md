@@ -40,23 +40,22 @@ Music
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
-        srcset="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&rank_icon=github"
+        srcset="./assets/contribution-snake-dark.svg"
       />
       <source
         media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-        srcset="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=default&rank_icon=github"
+        srcset="./assets/contribution-snake.svg"
       />
       <img
-        height="170"
-        src="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=default&rank_icon=github"
-        alt="GitHub Stats"
+        src="./assets/contribution-snake.svg"
+        alt="Contribution Snake"
       />
     </picture>
   </a>
 </p>
 
 <p align="center">
-  <sub>Public profile stats only. The heavier engineering work mostly lives off-stage in private repos.</sub>
+  <sub>Generated inside the repo via GitHub Actions. Local preview stays intact, and GitHub gets a real dynamic asset.</sub>
 </p>
 
 ## Signal / 信号

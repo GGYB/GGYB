@@ -1,0 +1,39 @@
+name: Update Contribution Snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: GGYB
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/contribution-snake.svg?palette=github-light
+            assets/contribution-snake-dark.svg?palette=github-dark
+
+      - name: Commit updated SVGs
+        run: |
+          if git diff --quiet -- assets/contribution-snake.svg assets/contribution-snake-dark.svg; then
+            echo "No snake changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-snake.svg assets/contribution-snake-dark.svg
+          git commit -m "docs(profile): Update contribution snake"
+          git push

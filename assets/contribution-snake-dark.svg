@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution Snake Placeholder Dark</title>
+  <desc id="desc">Dark placeholder image for the contribution snake animation before the GitHub Actions workflow runs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="20" fill="url(#bg)" />
+  <rect x="24" y="24" width="852" height="172" rx="14" fill="#111827" stroke="#334155" />
+  <text x="48" y="72" fill="#e2e8f0" font-family="Fira Code, monospace" font-size="24">contribution-snake-dark.svg</text>
+  <text x="48" y="112" fill="#94a3b8" font-family="Fira Code, monospace" font-size="18">Placeholder ready. Run the workflow once to generate the real snake.</text>
+  <text x="48" y="142" fill="#94a3b8" font-family="Fira Code, monospace" font-size="18">GitHub Actions -&gt; Update Contribution Snake</text>
+  <rect x="48" y="162" width="320" height="14" rx="7" fill="#1e293b" />
+  <rect x="48" y="162" width="210" height="14" rx="7" fill="url(#accent)" />
+</svg>
