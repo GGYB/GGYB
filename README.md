@@ -1,21 +1,8 @@
 <div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./assets/hero-banner-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-      srcset="./assets/hero-banner.svg"
-    />
-    <img
-      src="./assets/hero-banner.svg"
-      alt="AlgoRondo hero banner"
-    />
-  </picture>
-  <p>
-    <em>Music in the headphones. Geometry in the loop. LLMs on the radar.</em>
-  </p>
+  <img
+    src="./assets/hero-banner-animated.gif"
+    alt="AlgoRondo animated hero banner"
+  />
   <p>
     <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
     <img src="https://img.shields.io/badge/SLAM-111827?style=for-the-badge" alt="SLAM" />
