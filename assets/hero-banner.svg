@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">AlgoRondo Hero Banner</title>
+  <desc id="desc">Light hero banner for the AlgoRondo GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="320" rx="28" fill="url(#grid)" opacity="0.55" />
+
+  <circle cx="980" cy="74" r="84" fill="#dbeafe" opacity="0.85" />
+  <circle cx="1088" cy="250" r="116" fill="#ddd6fe" opacity="0.8" />
+  <circle cx="932" cy="250" r="42" fill="#ccfbf1" opacity="0.95" />
+
+  <path d="M780 214 C850 142, 938 258, 1014 182 S1112 122, 1160 156" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" opacity="0.95" />
+  <circle cx="1160" cy="156" r="12" fill="#2563eb" />
+
+  <g transform="translate(64 60)">
+    <rect x="0" y="0" width="184" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="18" y="23" fill="#334155" font-family="Fira Code, monospace" font-size="16">GGYB / AlgoRondo</text>
+
+    <text x="0" y="92" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">AlgoRondo</text>
+    <text x="0" y="132" fill="#0f172a" font-family="Fira Code, monospace" font-size="26">algorithm engineer // geometry-minded // music-driven</text>
+
+    <text x="0" y="194" fill="#334155" font-family="Fira Code, monospace" font-size="22">$ focus --current</text>
+    <text x="0" y="228" fill="#0f172a" font-family="Fira Code, monospace" font-size="24">SLAM · Point Cloud · Integrated Navigation · Classical CV</text>
+
+    <text x="0" y="272" fill="#334155" font-family="Fira Code, monospace" font-size="20">$ curiosity --next  LLM systems</text>
+  </g>
+</svg>
