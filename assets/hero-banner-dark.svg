@@ -1,41 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">AlgoRondo Hero Banner Dark</title>
-  <desc id="desc">Dark hero banner for the AlgoRondo GitHub profile.</desc>
+  <desc id="desc">Animated dark hero banner for the AlgoRondo GitHub profile.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#020617" />
       <stop offset="100%" stop-color="#0f172a" />
     </linearGradient>
     <linearGradient id="accent" x1="0%" x2="100%" y1="0%" y2="0%">
-      <stop offset="0%" stop-color="#14b8a6" />
-      <stop offset="50%" stop-color="#60a5fa" />
-      <stop offset="100%" stop-color="#a78bfa" />
+      <stop offset="0%" stop-color="#14b8a6">
+        <animate attributeName="stop-color" values="#14b8a6;#60a5fa;#a78bfa;#14b8a6" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#60a5fa">
+        <animate attributeName="stop-color" values="#60a5fa;#a78bfa;#14b8a6;#60a5fa" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#14b8a6;#60a5fa;#a78bfa" dur="8s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="1"/>
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="1" />
     </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="28" fill="url(#bg)" />
-  <rect width="1200" height="320" rx="28" fill="url(#grid)" opacity="0.9" />
+  <rect width="1200" height="360" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="360" rx="28" fill="url(#grid)" opacity="0.9">
+    <animate attributeName="opacity" values="0.78;0.95;0.78" dur="6s" repeatCount="indefinite" />
+  </rect>
 
-  <circle cx="980" cy="74" r="84" fill="#082f49" opacity="0.78" />
-  <circle cx="1088" cy="250" r="116" fill="#312e81" opacity="0.72" />
-  <circle cx="932" cy="250" r="42" fill="#134e4a" opacity="0.95" />
-
-  <path d="M780 214 C850 142, 938 258, 1014 182 S1112 122, 1160 156" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" opacity="0.98" />
-  <circle cx="1160" cy="156" r="12" fill="#60a5fa" />
-
-  <g transform="translate(64 60)">
-    <rect x="0" y="0" width="184" height="34" rx="17" fill="#111827" stroke="#334155" />
-    <text x="18" y="23" fill="#cbd5e1" font-family="Fira Code, monospace" font-size="16">GGYB / AlgoRondo</text>
-
-    <text x="0" y="92" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">AlgoRondo</text>
-    <text x="0" y="132" fill="#93c5fd" font-family="Fira Code, monospace" font-size="26">algorithm engineer // geometry-minded // music-driven</text>
-
-    <text x="0" y="194" fill="#94a3b8" font-family="Fira Code, monospace" font-size="22">$ focus --current</text>
-    <text x="0" y="228" fill="#e2e8f0" font-family="Fira Code, monospace" font-size="24">SLAM · Point Cloud · Integrated Navigation · Classical CV</text>
-
-    <text x="0" y="272" fill="#94a3b8" font-family="Fira Code, monospace" font-size="20">$ curiosity --next  LLM systems</text>
+  <g opacity="0.92">
+    <circle cx="980" cy="78" r="84" fill="#082f49" opacity="0.78">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 10 8; 0 0" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1088" cy="272" r="116" fill="#312e81" opacity="0.72">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -14 -10; 0 0" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="932" cy="262" r="42" fill="#134e4a" opacity="0.95">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="5s" repeatCount="indefinite" />
+    </circle>
   </g>
+
+  <path d="M760 242 C836 158, 932 286, 1016 196 S1110 132, 1164 168" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-dasharray="18 14" opacity="0.98" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-64" dur="3.8s" repeatCount="indefinite" />
+  </path>
+  <circle cx="1164" cy="168" r="11" fill="#60a5fa" filter="url(#glow)">
+    <animate attributeName="r" values="9;12;9" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+
+  <rect x="64" y="48" width="190" height="34" rx="17" fill="#111827" stroke="#334155" />
+  <text x="82" y="70" fill="#cbd5e1" font-family="Fira Code, monospace" font-size="16">GGYB / AlgoRondo</text>
+
+  <text x="64" y="144" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700">AlgoRondo</text>
+  <rect x="418" y="102" width="12" height="52" rx="3" fill="#60a5fa">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="64" y="188" fill="#93c5fd" font-family="Fira Code, monospace" font-size="25">algorithm engineer // geometry-minded // music-driven</text>
+
+  <text x="64" y="244" fill="#94a3b8" font-family="Fira Code, monospace" font-size="22">$ focus --current</text>
+  <text x="64" y="278" fill="#e2e8f0" font-family="Fira Code, monospace" font-size="24">SLAM · Point Cloud · Integrated Navigation</text>
+  <text x="64" y="308" fill="#e2e8f0" font-family="Fira Code, monospace" font-size="24">Classical CV · C++ · LLM-curious</text>
+
+  <text x="64" y="338" fill="#94a3b8" font-family="Fira Code, monospace" font-size="19">music in the headphones // geometry in the loop</text>
 </svg>
