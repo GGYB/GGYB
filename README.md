@@ -1,76 +1,97 @@
-# AlgoRondo
+<div align="center">
+  <h1>AlgoRondo</h1>
+  <p>
+    <strong>Algorithm Engineer</strong>
+    <br />
+    SLAM · Point Cloud · Integrated Navigation · Classical CV
+  </p>
+  <p>
+    <em>Music in the headphones. Geometry in the loop. LLMs on the radar.</em>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+    <img src="https://img.shields.io/badge/SLAM-111827?style=for-the-badge" alt="SLAM" />
+    <img src="https://img.shields.io/badge/Point%20Cloud-0F766E?style=for-the-badge" alt="Point Cloud" />
+    <img src="https://img.shields.io/badge/Integrated%20Navigation-334155?style=for-the-badge" alt="Integrated Navigation" />
+    <img src="https://img.shields.io/badge/LLM%20Curious-7C3AED?style=for-the-badge" alt="LLM Curious" />
+  </p>
+</div>
 
-```txt
-role      : Algorithm Engineer
-day job   : SLAM / Point Cloud / Integrated Navigation
-language  : C++
-interest  : LLMs
-side quest: Music
-github    : GGYB
+```bash
+algo@rondo:~$ whoami
+Algorithm Engineer @ RTK industry
+
+algo@rondo:~$ focus --current
+SLAM / Point Cloud Processing / Integrated Navigation / Classical Computer Vision
+
+algo@rondo:~$ curiosity --next
+LLM systems, evaluation, and the boundary between geometry and intelligence
+
+algo@rondo:~$ side-channel
+Music
 ```
 
-I build algorithms that need to survive the real world.
-At work, I focus on SLAM, point cloud processing, and integrated navigation in the RTK domain.
-Recently, more and more of my curiosity has been pulled toward LLMs.
+## Signal / 信号
 
-我是一名算法工程师。
-当前主要工作集中在 RTK 场景下的 SLAM、点云处理和组合导航，也长期使用 C++ 做算法实现。
-最近我对 LLM 相关系统非常感兴趣，正在认真观察它会把工程边界推到哪里。
+I build algorithms that are supposed to keep working after the demo ends.
+My day job lives in the RTK world: `SLAM`, `point cloud processing`, `integrated navigation`, and a lot of `C++`.
+Lately, a growing part of my attention has shifted toward `LLM` systems and the engineering patterns around them.
 
-## About / 关于我
+我做的不是只在演示里好看的算法，而是要在真实环境里继续工作的算法。
+我的主要工作在 RTK 相关场景里，核心方向是 `SLAM`、`点云处理`、`组合导航`，以及大量基于 `C++` 的算法实现。
+最近我也越来越关注 `LLM` 系统，以及它背后的工程方法和系统设计。
 
-`AlgoRondo` is the name I use here.
-It comes from two things I like: algorithms and music.
-Good systems need structure, rhythm, and variation. So do good compositions.
+## Why `AlgoRondo` / 为什么叫 `AlgoRondo`
 
-`AlgoRondo` 是我在这里使用的名字。
-它来自我喜欢的两样东西：算法和音乐。
-在我看来，好的系统和好的乐句很像，都需要结构、节奏和变化。
+`AlgoRondo` comes from two things I like: `algorithms` and `music`.
+A rondo returns to a theme, but never in exactly the same way twice.
+That feels familiar: structure, recurrence, variation, timing.
 
-## What I Work On / 我主要在做什么
+`AlgoRondo` 这个名字来自我喜欢的两样东西：`算法` 和 `音乐`。
+Rondo 是一种不断回到主题、但每次又带着变化的结构。
+这和工程很像：结构、重复、变化、节奏。
 
-- `C++` based algorithm engineering
-- LiDAR-centric `SLAM`
-- `Point Cloud Processing`
-- `Integrated Navigation`
-- Classical `Computer Vision`
+## Core Domains / 技术坐标
 
-- 基于 `C++` 的算法开发
-- 激光 SLAM 相关算法
-- 点云处理
-- 组合导航
-- 传统计算机视觉
+| Domain | Notes |
+| --- | --- |
+| `C++` | My default language for algorithm work |
+| `LiDAR SLAM` | Geometry-heavy systems, estimation, mapping, robustness |
+| `Point Cloud` | Processing, representation, filtering, and spatial reasoning |
+| `Integrated Navigation` | Multi-source fusion, system behavior, stability |
+| `Classical CV` | Traditional computer vision methods are still part of my toolbox |
+| `LLM` | Current curiosity and likely next growth vector |
 
-## What I'm Curious About / 我现在感兴趣的事情
+## Bias / 工作偏好
 
-- How LLM systems are built, evaluated, and turned into useful products
-- The point where classical robotics pipelines and modern foundation models may eventually meet
+- `robustness > hype`
+- `accuracy > decoration`
+- `explainability > mystery`
+- `systems that survive noise, drift, and messy data`
 
-- LLM 系统如何被构建、评估，并真正变成可用产品
-- 传统机器人算法链路与新一代基础模型未来可能发生的交汇点
+- `鲁棒性` 比热闹更重要
+- `准确性` 比表面效果更重要
+- `可解释性` 比神秘感更重要
+- 我更相信那些能扛住噪声、漂移和脏数据的系统
 
-## A Note on My Work / 关于我的工作内容
+## Offstage / 幕后
 
-Most of my substantial engineering work lives in private company repositories, so I cannot open-source the projects themselves here.
-This profile is therefore a map of my domains, interests, and working style rather than a catalog of public company code.
+Most of the substantial engineering work I do lives in private company repositories, so I cannot show those projects directly here.
+This profile is not a public dump of everything I have built.
+It is a compact map of what I work on, how I think, and where I may be heading next.
 
-我的很多核心工作都在公司的私有仓库中，因此没法直接公开项目本身。
-所以这个主页更像是我的技术方向、兴趣和工作方式的说明，而不是公司代码的展示橱窗。
+我很多核心工程工作都在公司的私有仓库里，因此没法直接把项目公开展示在这里。
+所以这个主页不是一个“全部作品公开陈列区”。
+它更像是一张压缩过的技术地图，说明我在做什么、怎么思考，以及接下来可能走向哪里。
 
-## Working Style / 工作偏好
+## Current Vector / 当前向量
 
-I prefer systems that are accurate, explainable, and robust.
-Fancy demos are nice, but I trust things that still behave well when the data gets noisy and the environment stops cooperating.
+- Still grounded in geometry-driven systems
+- Looking more seriously at `LLM` applications and evaluation
+- Curious about where robotics pipelines and foundation models may eventually meet
+- Usually thinking with music on
 
-我更偏爱准确、可解释、鲁棒的系统。
-炫目的 demo 很好，但我更信任那些在数据变脏、环境变复杂时依然能稳定工作的东西。
-
-## Now / 近期状态
-
-- Building stronger intuition for `LLM` systems
-- Keeping one foot in geometry and one foot in learning systems
-- Listening to music while thinking through difficult problems
-
-- 持续建立自己对 `LLM` 系统的理解
-- 一边站在几何与传统一侧，一边关注学习系统的演化
-- 一边听音乐，一边啃难问题
+- 仍然扎根在以几何和估计为核心的系统里
+- 正在更认真地理解 `LLM` 应用与评估
+- 对机器人算法链路和基础模型未来的交汇点很感兴趣
+- 大多数难题，都是戴着耳机想出来的
