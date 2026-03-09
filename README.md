@@ -1,9 +1,13 @@
 <div align="center">
   <h1>AlgoRondo</h1>
   <p>
-    <strong>Algorithm Engineer</strong>
-    <br />
-    SLAM · Point Cloud · Integrated Navigation · Classical CV
+    <strong>GGYB / AlgoRondo</strong>
+  </p>
+  <p>
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1400&center=true&vCenter=true&width=780&lines=Algorithm+Engineer;SLAM+%C2%B7+Point+Cloud+%C2%B7+Integrated+Navigation;C%2B%2B+by+trade%2C+LLM-curious+by+instinct;Music+in+the+headphones"
+      alt="Typing SVG"
+    />
   </p>
   <p>
     <em>Music in the headphones. Geometry in the loop. LLMs on the radar.</em>
@@ -30,6 +34,25 @@ LLM systems, evaluation, and the boundary between geometry and intelligence
 algo@rondo:~$ side-channel
 Music
 ```
+
+<p align="center">
+  <a href="https://github.com/GGYB">
+    <img
+      height="170"
+      src="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=dark#gh-dark-mode-only"
+      alt="GitHub Stats Dark"
+    />
+    <img
+      height="170"
+      src="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=default#gh-light-mode-only"
+      alt="GitHub Stats Light"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Public profile stats only. The heavier engineering work mostly lives off-stage in private repos.</sub>
+</p>
 
 ## Signal / 信号
 
