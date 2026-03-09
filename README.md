@@ -37,16 +37,21 @@ Music
 
 <p align="center">
   <a href="https://github.com/GGYB">
-    <img
-      height="170"
-      src="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=dark#gh-dark-mode-only"
-      alt="GitHub Stats Dark"
-    />
-    <img
-      height="170"
-      src="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=default#gh-light-mode-only"
-      alt="GitHub Stats Light"
-    />
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&rank_icon=github"
+      />
+      <source
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+        srcset="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=default&rank_icon=github"
+      />
+      <img
+        height="170"
+        src="https://github-readme-stats.vercel.app/api?username=GGYB&show_icons=true&include_all_commits=true&hide_border=true&theme=default&rank_icon=github"
+        alt="GitHub Stats"
+      />
+    </picture>
   </a>
 </p>
 
