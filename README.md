@@ -35,7 +35,8 @@ algo@rondo:~$ side-channel
 Music
 ```
 
-<p align="center">
+<div align="center">
+  <h3>Contribution Pulse</h3>
   <a href="https://github.com/GGYB">
     <picture>
       <source
@@ -52,11 +53,7 @@ Music
       />
     </picture>
   </a>
-</p>
-
-<p align="center">
-  <sub>Generated inside the repo via GitHub Actions. Local preview stays intact, and GitHub gets a real dynamic asset.</sub>
-</p>
+</div>
 
 ## Signal / 信号
 
